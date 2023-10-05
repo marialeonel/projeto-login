@@ -1,0 +1,58 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #498C60, #a5bdb5); 
+    }
+    
+    #login {
+        width: 80vw;
+    }
+
+    #imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+        background-position: center center;
+    }
+
+    #forms {
+        float: right;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to bottom, #498C60, #a5bdb5); 
+    }
+
+    #login {
+        width: 70vw;
+    }
+
+    #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-position: center center;
+    }
+
+    #forms {
+        float: right;
+        width: 50%;
+    }
+
+    div#forms > h1 {
+        font-size: 1.8em;
+        font-weight: bolder;
+        text-align: center;
+        padding: 10px;
+    }
+
+    div#forms > p {
+        font-size: 1.2em;
+        text-align: center;
+
+    }
+
+}
