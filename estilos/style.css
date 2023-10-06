@@ -36,10 +36,10 @@ main {
     width: 250px;
     height: 500px;
     background-color: white;
-    transform: translate(-50%, -50%);
     border-radius: 20px;
-    overflow: hidden;
+    overflow: hidden; /*o que ultrapassar a borda, é removido*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.592);
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 
@@ -56,3 +56,76 @@ main {
     padding: 10px;
     display:block;
 }
+
+div#forms > h1 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+div#forms > p {
+    text-align: center;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+}
+
+.campo {
+    margin-top: 20px;
+}
+
+form > div.campo {
+    background-color: #69ad4965;
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+    border-radius: 20px;
+}
+
+span#person, span#key {
+    color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+input#iemail, input#isenha {
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 45px);
+    transform: translateY(-10px);
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.349);
+    padding: 12px;
+}
+
+input#isubmit {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #69ad49;
+    color: white;
+    margin-top: 42px;
+
+}
+
+div#remember_me {
+    font-size: 0.8em;
+    font-weight: bolder;
+    float: right;
+    margin-top: 5px;
+}
+
+a#iforgot {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    color:#019334;
+
+}
+
+

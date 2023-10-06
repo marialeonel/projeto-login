@@ -5,6 +5,7 @@
     
     #login {
         width: 80vw;
+        height: 350px;
     }
 
     #imagem {
@@ -14,10 +15,24 @@
         background-position: center center;
     }
 
-    #forms {
+    div#forms {
         float: right;
         width: 60%;
     }
+
+    div#forms > p {
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    form {
+        margin-top: 30px;
+    }
+
+    form > input#isubmit {
+        margin-top: 60px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -28,6 +43,7 @@
 
     #login {
         width: 70vw;
+        height: 400px;
     }
 
     #imagem {
@@ -54,5 +70,14 @@
         text-align: center;
 
     }
+
+    form {
+        margin-top: 40px;
+    }
+
+    form > input#isubmit {
+        margin-top: 60px;
+    }
+
 
 }

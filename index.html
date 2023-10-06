@@ -22,7 +22,7 @@
                 <form action="#" method="post" autocomplete="on">
                         <div class="campo">
                             <label for="iemail">
-                                <span class="material-symbols-rounded">
+                                <span id="person" class="material-symbols-rounded">
                                 person
                                 </span>
                             </label>
@@ -30,14 +30,19 @@
                         </div>
                         <div class="campo">
                             <label for="isenha">
-                                <span class="material-symbols-rounded">
+                                <span id="key" class="material-symbols-rounded">
                                 key
                                 </span>
                             </label>
                             <input type="password" name="senha" id="isenha" placeholder="Your password here" autocomplete="current-password" required minlength="8" maxlength="12">
                         </div>
-                        <input type="submit" value="Submit">
-                        <a href="esqueci.html">I forgot my password...</a>
+                        <div id="remember_me">
+                            <input type="checkbox" name="remember" id="iremember">
+                            <label for="iremember">Remember me</label>
+                        </div>
+                        <input id="isubmit" type="submit" value="Submit">
+                        <a id="iforgot" href="esqueci.html">Did you forget your password?</a>
+                        
                 </form>
             </div>
         </section>
